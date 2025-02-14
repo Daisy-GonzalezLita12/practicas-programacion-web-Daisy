@@ -10,5 +10,9 @@ color:brown;
 .parrafostitulo{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* Este estilo se aplica solo a los elementos con la clase parrafostitulo  */
     font-size: 15px;
-    color:black;
+    color:black;}
+    
+.img-p{
+border-radius: 50%;
+
 }
