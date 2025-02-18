@@ -17,5 +17,5 @@ text-align: justify;
     
 .img-p{
 border-radius: 50%;
-
+/* esta función redondea las esquinas de la imagen */
 }
