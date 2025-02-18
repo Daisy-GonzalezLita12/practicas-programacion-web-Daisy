@@ -3,10 +3,10 @@ table {
     width: 100%;
    }
 th, td{
-    border: 1px solid #d70404;
+    border: 1px solid #042ed7;
     padding: 8px;
     text-align: left;
 }
 th {
-    background-color: #56d512;
+    background-color: #9ccdfe;
 }
