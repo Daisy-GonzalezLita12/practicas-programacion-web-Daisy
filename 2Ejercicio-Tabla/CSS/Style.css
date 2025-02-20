@@ -1,12 +1,87 @@
 table {
+
     border-collapse: collapse;
+    /* Fusiona los bordes de las celdas para que no se dupliquen. */
     width: 100%;
+    /* Hace que la tabla ocupe todo el ancho disponible.*/
    }
+ tr:nth-of-type(1)>th{
+    /*Selecciona la primera fila de la tabla. */
+    background-color: rgb(83, 230, 83);
+    /*Color verde para el fondo del encabezado. */
+    text-align: center; /* Alinea el texto al centro. */
+    font-family: Arial, sans-serif;  /* Tipo de letra */
+    font-size: 20px; /* Tamaño de letra */
+ }  
 th, td{
-    border: 1px solid #042ed7;
-    padding: 8px;
-    text-align: left;
+    border: 2px solid #042ee7;
+    /* Borde de 2 píxeles de color azul en las celdas. */
+    text-align:justify;
+    /* Justifica el texto */
+    vertical-align: middle;
+    /* Alinea el contenido verticalmente al centro. */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+ 
 }
 th {
-    background-color: #9ccdfe;
+    background-color: #b3d4f5;
+/* Fondo azul claro para los encabezados. */
+width: 10cm;
+/* Ancho de 10 cm para cada encabezado. */
+text-align: center;
+/* Alinea el texto al centro. */
+font-size: 18px; /* Tamaño de letra */
+}
+.Lenguajes{
+    background-color:rgb(237, 210, 174);
+    /*Define un color de fondo */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+    text-align:justify; /* Justifica el texto */
+}
+.L_interfaz{
+    background-color: rgb(218, 191, 243);
+     /*Define un color de fondo */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+    text-align:justify;/* Justifica el texto */
+}
+.Taller{
+    background-color: rgb(212, 248, 150);
+     /*Define un color de fondo */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+    text-align:justify;/* Justifica el texto */
+}
+.Redes{
+    background-color:rgba(249, 171, 247, 0.902) ;
+     /*Define un color de fondo */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+    text-align:justify;/* Justifica el texto */
+}
+.Software{
+    background-color: rgb(179, 247, 221);
+     /*Define un color de fondo */
+    text-align:justify;/* Justifica el texto */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+}
+.Programación{
+    background-color: rgba(246, 245, 162, 0.955);
+     /*Define un color de fondo */
+    text-align:justify;/* Justifica el texto */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+}
+.Administración{
+    background-color: rgb(195, 134, 143);
+     /*Define un color de fondo */
+    text-align:justify;/* Justifica el texto */
+    padding: 8px;
+    /* Agrega 8 píxeles de espacio en todos los lados  */
+}
+.vacias{
+    background-color: #9696f5;
+     /*Define un color de fondo */
 }

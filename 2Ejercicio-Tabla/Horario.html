@@ -7,52 +7,81 @@
     <title>Tabla</title>
 </head>
 <body>
-<table>
-    <h1>HORARIO 6BS</h1>
+    <h1> <center>HORARIO DEL GRUPO 6BS</center></h1>
+<table border="2"> 
     <tr>
+        <!--  tr: Filas en la tablas -->
+        <th>HORA</th>
         <th>Lunes</th>
+        <!-- th:Texto resaltado en negritas -->
         <th>Martes</th>
         <th>Miércoles</th>
         <th>Jueves</th>
         <th>Viernes</th>
     </tr>
+    
     <tr>
-        <th>11:00-13:00 <br>Aula:LC3 <br> Profesor:Solano Hernandez Miguel Angel <br> Lenguajes y Automátas I</th>
-        <th>11:00-13:00 <br>Aula:MAG3 <br>Profesor:Sanchez Vasquez Lucia <br>Lenguajes de Interfaz </th>
-        <th>11:00-13:00 <br>Aula:4 <br> Profesor:Solano Hernandez Miguel Angel <br> Lenguajes y Automátas I</th>
-        <th></th>
-        <th>12:00-13:00<br>Aula:RDS<br> Profesor:Solano Hernandez Miguel Angel <br> Lenguajes y Automátas </th>
-    </tr>
-   <tr>
-    <th>13:00-15:00 <br>Aula: LDS <br>Profesor: Cruz Perez Jorge <br>Taller de Sistemas Operativos</th>
-    <th>13:00-15:00 <br>Aula:RDS <br>Profesor:Sanchez Vasquez Lucia <br>Redes de Computadoras</th>
-    <th>13:00-15:00 <br>Aula:LDS <br>Profesor:Cruz Perez Jorge <br>Redes de Computadoras</th>
-    <th>13:00-15:00 <br>Aula:LDS <br>Profesor:Sanchez Vasquez Lucia <br>Redes de Computadoras </th>
-    <th>13:00-14:00 <br>Aula:ACS <br>Profesor: Vasquez Martínez Josué Israel <br>Programación Web </th>
-    </tr>
-   <Tr>
-    <th>15:00-17:00 <br>Aula:LDS <br>Profesor: Román Cruz Jose Alfredo <br> Ingeniería de Software</th>
-    <th>15:00-17:00 <br>Aula:ACS <br> Profesor: Vasquez Martínez Josué Israel <br>Programación Web </th>
-    <th>15:00-17:00 <br>Aula:LDS <br>Profesor: Garcia Hernandez Hilario Vidal <br>Administración de Bases De Datos</th>
-    <th>15:00-17:00 <br>Aula:LDS <br>Profesor: Román Cruz Jose Alfredo <br>Ingeniería De Software </th>
-    <th>14:00-15:00 <br>Aula:LDS <br>Profesor: Garcia Hernandez Hilario Vidal <br>Administración de Bases De Datos</th>
-   </Tr>
+        <th>11:00-12:00</th>
+        <td rowspan="2" class="Lenguajes">LENGUAJES Y AUTOMÁTAS I <br>Aula: LC3 <br> Profesor: Solano Hernández Miguel Ángel</td>
+        <!-- el atributo "rowspan" permite fusionar celdas verticalmente. -->
+        <td rowspan="2" class="L_interfaz">LENGUAJES DE INTERFAZ<br>Aula: MAG2 <br>Profesora: Sánchez Vásquez Lucia  </td>
+        <!-- td: Texto normal -->
+        <td rowspan="2" class="Lenguajes"> LENGUAJES Y AUTOMÁTAS I <br>Aula: 4 <br> Profesor: Solano Hernández Miguel Ángel</td>
+        <td rowspan="2" class="vacias"></td>
+        <td class="vacias"></td>
 
-   <tr>
-    <th></th>
-    <th>17:00-19:00 <br>Aula:ACS <br> Profesor: Vasquez Martínez Josué Israel <br>Programación Web</th>
-    <th>17:00-19:00 <br>Aula:RDS <br>Profesor:Sanchez Vasquez Lucia <br>Lenguajes de Interfaz</th>
-    <th>17:00-19:00 <br>Aula:ACS <br> Profesor: Vasquez Martínez Josué Israel <br>Programación Web</th>
-    <th>15:00-16:00 <br>Aula:RDS <br>Profesor: Román Cruz Jose Alfredo <br>Ingeniería De Software </th>
+       
     </tr>
 
     <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-    <th>15:00-17:00 <br>Aula:LDS <br>Profesor:Cruz Perez Jorge <br>Redes de Computadoras
-    </tr>
+        <th>12:00-13:00</th>
+        <td class="Lenguajes">LENGUAJES Y AUTOMÁTAS I <br>Aula: RDS <br> Profesor: Solano Hernández Miguel Ángel </td> 
+        
+        
+   </tr>
+   <tr>
+        <th>13:00-14:00</th>
+        <td rowspan="2" class="Taller">TALLER DE SISTEMAS OPERATIVOS<br>Aula: LDS <br>Profesor: Cruz Pérez Jorge</td>
+        <td rowspan="2" class="Redes">REDES DE COMPUTADORAS<br> Aula: RDS <br> Profesora: Sánchez Vásquez Lucia</td>
+        <td rowspan="2" class="Taller">TALLER DE SISTEMAS OPERATIVOS<br> Aula: LDS <br> Profesor: Cruz Pérez Jorge </td>
+        <td rowspan="2" class="Redes">REDES DE COMPUTADORAS<br>Aula: LDS <br> Profesora: Sánchez Vásquez Lucia</td>
+        <td class="Programación">PROGRAMACIÓN WEB<br> Aula: ACS <br> Profesor: Vásquez Martínez Josué Israel</td>
+    
+   </tr>
+   
+   <tr>
+        <th >14:00-15:00</th>
+        <td class="Administración">ADMINISTRACIÓN DE BASES DE DATOS <br>Aula: LDS <br> Profesor: García Hernández Hilario Vidal</td>
+   </tr>
+  
+   <tr>
+    <th>15:00-16:00</th>
+    <td rowspan="2" class="Software">INGENIERÍA DE SOFTWARE<br>Aula: LDS <br> Profesor: Román Cruz José Alfredo</td>
+    <td rowspan="2" class="Administración">ADMINISTRACIÓN DE BASES DE DATOS<br> Aula: RDS <br> Profesor: García Hernández Hilario Vidal</td>
+    <td rowspan="2" class="Administración">ADMINISTRACIÓN DE BASES DE DATOS<br>Aula: LDS <br> Profesor: García Hernández Hilario Vidal</td>
+    <td rowspan="2" class="Software">INGENIERÍA DE SOFTWARE<br>Aula: LDS <br> Profesor: Román Cruz José Alfredo</td>
+    <td class="Software">INGENIERÍA DE SOFTWARE<br>Aula: RDS <br> Profesor: Román Cruz José Alfredo</td>
+
+   </tr>  
+
+   <tr>
+     <th>16:00-17:00</th>
+     <td class="Redes">REDES DE COMPUTADORAS <br> Aula: LDS <br> Profesora: Sánchez Vásquez Lucia </td>
+  </tr> 
+
+  <tr>
+    <th>17:00-18:00</th>
+    <td rowspan="2" class="vacias"></td>
+    <td rowspan="2" class="Programación">PROGRAMACIÓN WEB<br>Aula: ACS <br>Profesor: Vásquez Martínez Josué Israel </td>
+    <td rowspan="2" class=L_interfaz>LENGUAJES DE INTERFAZ<br>Aula: RDS <br>Profesora: Sánchez Vásquez Lucia  </td>
+    <td rowspan="2" class="Programación">PROGRAMACIÓN WEB<br>Aula: ACS <br>Profesor: Vásquez Martínez Josué Israel </td>
+    <td class="vacias"></td>
+ </tr>
+ 
+ <tr>
+        <th>18:00-19:00</th>
+        <td class="vacias"></td>
+ </tr>  
 </table>
 </body>
 </html>
