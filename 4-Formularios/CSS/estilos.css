@@ -1,10 +1,16 @@
 input, select,button{
     border-radius: 15px;
+    /* Redondea el borde */
     padding: 10px;
+    /* Genera un espacio entre el borde del botón y las letras */
     margin: 5px;
-    background-color: cadetblue;
+    /* Margen */
+    background-color: rgb(165, 234, 226);
+    /* DEfine el color de fondo */
 }
 .titulo{
-    font-family:fantasy;
-    font-size: 20;
+    font-family:cursive;
+    /* Tipo de letra */
+    font-size: 26;
+    /* Tamaño de letra */
 }
