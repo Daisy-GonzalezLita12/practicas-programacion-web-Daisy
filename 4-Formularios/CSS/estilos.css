@@ -1,0 +1,10 @@
+input, select,button{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    background-color: cadetblue;
+}
+.titulo{
+    font-family:fantasy;
+    font-size: 20;
+}
