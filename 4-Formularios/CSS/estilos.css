@@ -5,12 +5,12 @@ input, select,button{
     /* Genera un espacio entre el borde del botón y las letras */
     margin: 5px;
     /* Margen */
-    background-color: rgb(165, 234, 226);
+    background-color:rgb(255, 147, 169);
     /* DEfine el color de fondo */
 }
 .titulo{
     font-family:cursive;
     /* Tipo de letra */
-    font-size: 26;
+    font-size: 20;
     /* Tamaño de letra */
 }
